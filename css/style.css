@@ -1,0 +1,193 @@
+/* Reset Tags */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: black;
+}
+
+/* /Reset Tags */
+
+
+/* Helper Class */
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+/* /Helper Class */
+
+
+/* Navbar Class */
+
+.heading-bkg {
+    width: 100%;
+    height: 25em;
+    opacity: .5;
+    position: absolute;
+}
+
+.links {
+    background-color: rgba(153, 102, 0, .3);    
+}
+
+.links li {
+    display: inline-block;
+    font-size: 40px;
+    padding: 20px 10px;
+    position: static;
+    text-decoration: none;
+}
+
+
+.heading {
+    padding: 250px 250px 0 250px;
+    font-size: 100px;
+    position: relative;
+}
+
+.heading h1 {
+    display: block;
+    width: 75%;
+    height:150px;
+}
+/* /Navbar Class */
+
+
+/* Main Content Class */
+.main-bkg {
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(153, 102, 0, .3);
+}
+
+.main {
+    display: block;
+    width: 650px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 30px 300px;
+    font-size: 18px;
+}
+
+.main-title {
+    font-size: 36px;
+    margin-left: 450px;
+    margin-bottom: 30px;
+}
+
+.main-img {
+    display: block;
+    width: 150px;
+    height: 110px;
+    background-position: center;
+    border-radius: 25px;
+    background-image: url("../img/business_nyc.jpg");
+}
+
+.main-img:hover {
+    width: 200px;
+    height: 110px;
+}
+
+/* /Main Content Class */
+
+/* Sub Content Class */
+
+.sub-title {
+    font-size: 36px;
+    padding-left: 250px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.sub-content {
+    display: block;
+    width: 300px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 20px;
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+
+.sub-img {
+    display: block;
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    margin: 10px 115px;
+    color: lightblue;
+}
+
+.sub-bkg {
+    width: 100%;
+    height: 500px;
+    opacity: .9;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/business.jpg")
+}
+
+.sub-margin {
+    margin-left: 250px;
+}
+
+/* /Sub Content Class */
+
+
+/* Footer Class */
+.footer {
+    display: block;
+    width: 100%;
+    height: 5em;
+    background-color: rgba(153, 102, 0, .3);
+    position: static;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 36px;
+    color: black;
+    padding: 10px 30px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+/* /Footer Class */
