@@ -3,3 +3,9 @@
     width: 75%;
     margin: 0 200px;
 }
+
+.map {
+    width: 400px;
+    height: 300px;
+    border: none;
+}
